@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #0e89f1;
+    padding: 10px 90px 10px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+body {
+    color: #0e89f1;
+    background-color: #ffffff;
+}
+
+header nav a {
+    color: #ffffff;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 42px;
+}
+
+header nav a:hover {
+    color: #de1204;
+
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    /* top, direita, baixo, esquerda*/
+    padding: 24px 80px 111px 80px;
+    position: relative;
+
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 32px;
+
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+
+}
+
+.botao {
+    background-color: #0e89f1;
+    padding: 16px 32px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
+.botaofooder {
+    background-color: #0e89f1;
+    padding: 0px 8px;
+    border-radius: 11px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+
+
+
+}
+
+.botao-invisivel {
+    background-color: transparent;
+    color: #0e89f1;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+    font-weight: 600;
+
+}
+
+#horario {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 84px;
+
+}
+
+#horario ul {
+    list-style-type: none;
+}
+
+#horario li,
+h3 {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+#mais {
+    text-align: center;
+    padding: 64px 80px;
+
+}
+
+.duvidas {
+    position: relative;
+
+}
+
+.duvidas h3 {
+    border: 2px solid #0e89f1;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 16px;
+
+
+}
+
+.duvidas img {
+    position: absolute;
+    top: 23px;
+    right: 10px;
+    cursor: pointer;
+
+}
+
+
+.infor {
+    position: relative;
+
+}
+
+.infor {
+    text-align: center;
+    max-width: 950px;
+    margin: 0 auto;
+
+
+
+}
+
+.duvidas .paragrafo {
+    margin-top: -24px;
+    margin-left: 32px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-radius: 0 0 8px 8px;
+
+
+    padding: 0 14px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+
+}
+
+.duvidas ul {
+    list-style-type: none
+}
+
+.duvidas a {
+    text-decoration: none;
+    color: #f1470e8d;
+    font-weight: 700;
+}
+
+.duvidas.ativa .paragrafo {
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+
+}
+
+
+footer {
+    background-color: #0e8bf12f;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px;
+    display: flex;
+
+}
+
+footer img,
+footer .links {
+    display: block;
+    font-weight: 800;
+    margin-bottom: 24px;
+    display: block;
+}
+
+footer nav a {
+    color: #0e8bf1;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 300px;
+
+}
+
+footer p a {
+    color: #0e8bf1;
+    text-decoration: none;
+
+}
+
+.copy {
+    background-color: #2b2c2c;
+    text-align: center;
+    padding: 24px;
+    color: #ffffff;
+
+}
+
+.copy a {
+    color: #de1204;
+}
